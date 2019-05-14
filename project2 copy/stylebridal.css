@@ -1,0 +1,262 @@
+.header {8
+    padding-top:  10px;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+}
+
+/*
+.header a:nth-child(3) {
+padding: 0;
+margin-top: 0;
+}
+*/
+p:nth-child(3){
+    margin-top: 0;
+}
+
+body{
+    margin:0;
+}
+.header a {
+    padding-left: 25px;
+}
+.header a.firstlink{
+    padding-left: 0px;
+}
+
+.grid_parent{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background-color: #e495a1;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px 1em; 
+/*    grid-auto-rows: minmax(50px,auto);*/
+    align-content: start;
+    padding-left: 70px;
+height: 500px;
+}
+
+
+
+/*
+.header a:first-child{
+padding-left: 0px;
+}
+*/
+.header a:nth-child(4){
+/*    padding-left: 40px;*/
+}
+.header a:nth-child(5){
+    padding-left: 40px;
+}
+.header a:nth-child(2){
+    padding-left: 40px;
+}
+a:link{
+    text-decoration: none;
+    color: black;}
+
+a:visited {
+    text-decoration: none;
+    color: black;}
+
+a:hover{
+    color: #e495a1;
+    text-decoration: none;
+}
+
+.container {
+    box-sizing: fixed;
+    grid-column: 1/4;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    height: 900px;
+
+}
+.mySlides img {
+    max-height: 900px ;
+    object-fit: cover ;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.paragraph1{ 
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e495a1;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-width: 300px ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 300px;
+}
+
+.paragraph2{ 
+    
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-color: #e495a1;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 300px ;
+    height: 300px;}
+
+.paragraph3{ 
+    
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-color: #e495a1;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 300px ;
+    height: 300px;
+}
+
+#icon {
+    height:600px;
+    width: 600px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:  20px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    margin-top: 20px;
+}
+
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn.hover {
+    background-color: white;
+    
+}
+
+.btn: active {
+    background-color: #767676;
+    color: white;
+}
+
+.menu{
+/*    margin-left: 700px;*/
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    }
+
+.yelp-review{
+   margin-left: 300px;
+}
+
+
+
+
+

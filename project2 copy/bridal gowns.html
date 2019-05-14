@@ -1,0 +1,71 @@
+<html lang="en">
+    <head>
+        <title>Atelier Cape Ann | Bridal Gowns</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylebridal.css">
+        <link rel="stylesheet" href="https://use.typekit.net/umx4zbl.css">
+    </head> 
+    <body> 
+
+
+        <div class="header">   
+            <!--                <a class="firstlink" href="link">Bridal Gowns</a>-->
+            <p><a href="bridal%20gowns.html"><font color="#e495a1">Bridal Gowns</font></a></p>
+            <p><a href="gowns.html"> Dresses</a></p>
+            <p style="text-align:center;"><a href="main.html"><img src="logo.jpg" WIDTH=150 HEIGHT=60 align="bottom"></a></p>
+            <p><a href="reviews.html">Reviews</a></p>
+            <p><a href="make.html">Make an appointment</a></p>
+        </div>
+
+        <div class="menu" id="myHeader">
+            <button class="btn" onclick="one()"><img src="1.png" style="width:100%"></button>
+            <button class="btn active" onclick="two()"><img src="2.png" style="width:100%"></button>
+            <button class="btn" onclick="four()"><img src="4.png" style="width:100%"></button>
+        </div>
+        <div class="row"> 
+            <div class="column">
+                <img src="bridal_dresses1.png" style="width:100%">
+                <img src="bridal_dresses2.png" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="bridal_dresses3.png" style="width:100%" style="width:100%">
+                <img src="bridal_dresses4.png" style="width:100%">
+            </div> 
+            <div class="column">
+                <img src="bridal_dresses5.png" style="width:100%">
+                <img src="bridal_dresses6.png" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="bridal_dresses7.png" style="width:100%">
+            </div>
+        </div>
+
+        <script>
+            // Get the elements with class="column"
+            var elements = document.getElementsByClassName("column");
+
+            // Declare a "loop" variable
+            var i;
+
+            // Full-width images
+            function one() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.flex = "100%"; 
+                }
+            }
+
+            // Two images side by side
+            function two() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.flex = "40%"; 
+                }
+            }
+
+            // Four images side by side
+            function four() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.flex = "20%"; 
+                }
+            }
+        </script>
+
